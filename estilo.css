@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.contenedor
+{
+  position: relative;
+  width: 100%;  
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.contenedor .lado_izquierdo 
+{
+    position: relative;
+    background: #003147; 
+    padding: 40px;
+}
+.contactoData
+{
+    padding-top: 40px ;
+}
+.titulo
+{
+color: #fff;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px; 
+margin-bottom: 20px;
+}
+.contactoData ul
+{
+  position: relative;  
+}
+.contactoData ul li
+{
+position: relative;
+  list-style: none; 
+  margin: 10px 0; 
+  cursor: pointer;
+}
+.contactoData ul li .icon
+{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: #03a9f4;
+}
+
+.contactoData ul li .span
+{
+    color: #fff;
+    font-weight: 300;
+
+}
+.contactoData.educacion li
+{
+margin-bottom: 15px;
+}
+
+.contactoData.educacion h5
+{
+   color: #03a9f4; 
+   font-weight: 500;
+}
+
+.contactoData.educacion h4
+{
+    color: #fff;
+    font-weight: 500;
+}
+.contactoData.educacion h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.contactoData.idiomas li
+{
+color:#fff
+}
+.contactoData.idiomas .porcentaje
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px; 
+}
+
+.contactoData.idiomas .porcentaje div 
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.about
+{
+   margin-bottom: 50px;
+
+}
+.about:last-child
+{
+   margin-bottom: 0;    
+}
+
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company
+{
+   min-width: 150px;
+
+}
+
+.Habilidades .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about .box .year_company h5
+{
+    text-transform: #848c90;
+    font-weight: 600;
+}
+
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.titulo2 
+{
+    color:#081921;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.Identidad
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}   
+
+.Identidad .imagenbox
+{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.Identidad .imagenbox img
+{ position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.Identidad h2
+{
+color: #fff;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+.Identidad h2 span
+{
+font-size: 0.8em;
+font-weight: 300;
+}
+.contenedor .lado_derecho
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
